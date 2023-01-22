@@ -99,4 +99,4 @@ def get_by_genre(genre: str):
     return jsonify(res)
 
 
-app.run(debug=True)
+app.run(port=5000)
